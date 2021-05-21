@@ -108,3 +108,18 @@ function myLoadFunction() {
 
 
 document.addEventListener('DOMContentLoaded', myLoadFunction);
+
+// Function for Delating the START button from the middle of the screen 
+
+
+
+
+function delStartButton(){
+var body = document.getElementByTagName('body');
+var button = document.getElementsByTagName("div") [1];
+body.removeChild(button);
+
+
+
+
+start_btn.addEventListener('click',delStartButton);}
